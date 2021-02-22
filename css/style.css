@@ -148,6 +148,7 @@ div.content {
 .galleryImage {
   width: 100%;
   border-right: 20px solid #fff;
+  margin-bottom: 2rem;
 }
 div.col {
   margin:0 auto;
