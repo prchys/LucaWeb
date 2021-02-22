@@ -81,10 +81,6 @@ div.content {
   margin-top: 0px;
   float: left;
 }
-.photosSection {
-  display: block;
-  overflow: hidden;
-}
 .sectionHeaderBar {
   height: 50px;
   display:inline-flex;
@@ -206,7 +202,7 @@ body > div.content.container-fluid > div.photosSection > div.container-fluid > d
   margin: 0;
 }
 
-
+/* Tattoo section */
 body > div.content.container-fluid > div.tattooSection > div.container-fluid.tattooImages > div > div:nth-child(even) img {
   margin-top: 0;
 }
