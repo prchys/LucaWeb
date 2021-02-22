@@ -125,6 +125,7 @@ div.content {
 }
 .section-nav-item{
   margin: 0!important;
+  padding: 0!important;
 }
 .galleryImage {
   width: 100%;
