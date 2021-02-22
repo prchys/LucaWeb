@@ -82,11 +82,13 @@ div.content {
   float: left;
 }
 .sectionHeaderBar {
-  height: 50px;
+  height: auto;
   display:inline-flex;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
 }
 .sectionHeaderBar h1 {
   padding:0;
@@ -120,6 +122,9 @@ div.content {
 }
 .sectionHeaderBar ul a:hover {
   text-decoration: underline;
+}
+.section-nav-item{
+  margin: 0!important;
 }
 .galleryImage {
   width: 100%;
