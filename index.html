@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <a href="/" class="logoText">
+            <b>Lukáš Zíma</b>
+        </a>
+        <a href="/photo">Fotky</a>
+        <a href="/tattoo">Tetování</a>
+        <a href="/blog">Blog</a>
+        <a href="/contact">Kontakt</a>
+    </div>
+
+    <div class="content container-fluid">
+        <div class="descriptionHeader">
+            <img src="images/main.jpg" alt="main">
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum (zkráceně lipsum) je označení pro standardní pseudolatinský text užívaný v grafickém designu
+                a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např.
+                internetových stránek, rozvržení časopisů či všech druhů reklamních materiálů). Lipsum tak pracovně
+                znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen
+                smysluplný obsah.</p>
+        </div>
+        <hr />
+        <div class="photosSection">
+            <div class="sectionHeaderBar">
+                <h1>Fotky</h1>
+                <div class="sectionMenu">
+                    <ul>
+                        <li><a href="">Osoby</a></li>
+                        <li><a href="">Zvířata</a></li>
+                        <li><a href="">Příroda</a></li>
+                        <li><a href="">Sport</a></li>
+                    </ul>
+                </div>
+                <a href="">
+                    <h2>PODROBNOSTI</h2>
+                </a>
+            </div>
+            <div class="container-fluid">
+                <div class="row row-cols-5">
+                    <div class="col">
+                        <img src="images/nature.jpg" class="galleryImage" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/nature.jpg" class="galleryImage" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/nature.jpg" class="galleryImage" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/nature.jpg" class="galleryImage" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/nature.jpg" class="galleryImage" alt="">
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="tattooSection">
+            <div class="sectionHeaderBar">
+                <h1>Tetování</h1>
+                <div class="sectionMenu">
+                    <ul>
+                        <li><a href="">Handpoke</a></li>
+                        <li><a href="">Machine work</a></li>
+                    </ul>
+                </div>
+                <a href="">
+                    <h2>PODROBNOSTI</h2>
+                </a>
+            </div>
+            <div class="container-fluid tattooImages">
+                <div class="row row-cols-5">
+                    <div class="col">
+                        <img src="images/cigareta.png" class="tattooImage" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/hand.png" class="tattooImage" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/main.jpg" class="tattooImage" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/cigareta.png" class="tattooImage" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/hand.png" class="tattooImage" alt="">
+                    </div>
+                </div>
+            </div>
+            <hr />
+        </div>
+        <div class="blogSection">
+            <div class="sectionHeaderBar">
+                <h1>Blog</h1>
+                <div class="sectionMenu">
+                    <ul>
+                        <li><a href="">Novinky</a></li>
+                        <li><a href="">Svět tetování</a></li>
+                        <li><a href="">Fotografie</a></li>
+                    </ul>
+                </div>
+                <a href="">
+                    <h2>PODROBNOSTI</h2>
+                </a>
+            </div>
+            <div class="blogArticles">
+                <div class="article">
+                    <h2>LOREM IPSUM DOLOR</h2>
+                    <p class="date">14.2.2020</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus ac leo pretium faucibus. Maecenas lorem. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Fusce nibh. Nunc auctor. Phasellus faucibus molestie nisl. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Etiam dictum tincidunt diam. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Sed convallis magna eu sem.</p>
+                </div>
+                <div class="article">
+                    <h2>LOREM IPSUM DOLOR</h2>
+                    <p class="date">14.2.2020</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus ac leo pretium faucibus. Maecenas lorem. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Fusce nibh. Nunc auctor. Phasellus faucibus molestie nisl. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Etiam dictum tincidunt diam. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Sed convallis magna eu sem.</p>
+                </div>
+                <div class="article">
+                    <h2>LOREM IPSUM DOLOR</h2>
+                    <p class="date">14.2.2020</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus ac leo pretium faucibus. Maecenas lorem. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Fusce nibh. Nunc auctor. Phasellus faucibus molestie nisl. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Etiam dictum tincidunt diam. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec bibendum odio risus sit amet ante. Sed convallis magna eu sem.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
