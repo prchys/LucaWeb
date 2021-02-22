@@ -103,7 +103,8 @@ div.content {
   display:inline-flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 20px;
+  margin-top: 2rem;
+  margin-bottom: 4px;
   margin-left: 0;
   margin-right: 0;
 }
